@@ -76,7 +76,7 @@ export default function Index() {
       <EmojiPicker isVisible={isModalVisible} onClose={onModalClose}>
         <EmojiList onSelect={setPickedEmoji} onCloseModal={onModalClose} />
       </EmojiPicker>
-    </GestureHandlerRootView >
+    </GestureHandlerRootView>
   );
 }
 
